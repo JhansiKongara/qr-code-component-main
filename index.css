@@ -1,0 +1,78 @@
+hello {
+  color: hsl(0, 0%, 100%);
+  color: hsl(212, 45%, 89%);
+  color: hsl(215, 9%, 43%);
+  color: hsl(218, 44%, 22%);
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+.container {
+  background-color: hsl(0, 0%, 100%);
+  width: 27%;
+  margin: 0px auto;
+  height: 58vh;
+  border-radius: 10px;
+  margin-top: 85px;
+}
+img {
+  width: 81%;
+  margin: 0px auto;
+  align-items: center;
+  display: flex;
+  padding: 17px;
+  border-radius: 30px;
+}
+h4 {
+  display: flex;
+  margin: 0px auto;
+  padding: 0px 48px;
+  position: relative;
+  font-family: "Outfit", sans-serif;
+  color: hsl(218, 44%, 22%);
+  font-size: 16px;
+  font-weight: 700;
+}
+p {
+  display: flex;
+  margin: 0px auto;
+  padding: 0px 48px;
+  position: relative;
+  font-family: "Outfit", sans-serif;
+  color: hsl(215, 9%, 43%);
+  font-size: 13px;
+  font-weight: 500;
+  padding: 22px 39px;
+}
+@media only screen and (width <= 800px) {
+  .container {
+    background-color: hsl(0, 0%, 100%);
+    width: 73%;
+    margin: 0px auto;
+    height: 68vh;
+    border-radius: 10px;
+    margin-top: 85px;
+  }
+  h4 {
+    display: flex;
+    margin: 0px auto;
+    padding: 0px 32px;
+    position: relative;
+    font-family: "Outfit", sans-serif;
+    color: hsl(218, 44%, 22%);
+    font-size: 16px;
+    font-weight: 700;
+  }
+  p {
+    display: flex;
+    margin: 0px auto;
+    padding: 0px 48px;
+    position: relative;
+    font-family: "Outfit", sans-serif;
+    color: hsl(215, 9%, 43%);
+    font-size: 13px;
+    font-weight: 500;
+    padding: 19px 18px;
+  }
+}
